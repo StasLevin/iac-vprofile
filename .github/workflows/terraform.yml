@@ -22,6 +22,7 @@ env:
   BUCKET_TF_STATE: ${{ secrets.BUCKET_TF_STATE }}
   EKS_CLUSTER: vprofile-eks
 
+
 jobs:
   terraform:
     name: "Apply terraform code changes"
